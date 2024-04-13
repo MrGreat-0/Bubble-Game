@@ -135,8 +135,9 @@ document.querySelector("#p-bottom")
     })
 
 
-// this function help appearing bubble without resize the width...method (01)...[when you don't use start button you need this method]
-// window.addEventListener("resize", makeBubble);
+// this function help appearing bubble without resize the width...method (01)...
+// [note : when you don't use start button you need this method but you this event listener for real-time responsive like when you play game]
+window.addEventListener("resize", makeBubble);
 
 //////////////////////////////////////////////////////////////
 

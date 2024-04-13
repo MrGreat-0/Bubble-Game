@@ -89,9 +89,10 @@ main {
 .box {
 
     /* width: 1vw; */
-    padding: 0.6vw;
+    padding: 0.3vw 0.5vw;
     background-color: #fff;
     border-radius: 5px;
+    font-size: 1.5vw;
 
 }
 
@@ -204,7 +205,8 @@ main {
     }
 
     .box {
-        padding: 0.3vw;
+        padding: 0.5vw 0.7vw;
+        font-size: 1.65vw;
     }
 
     #p-bottom {
@@ -228,7 +230,7 @@ main {
     .elem h4 {
 
         font-weight: 300;
-        font-size: 4.5vw;
+        font-size: 4vw;
 
     }
 
@@ -248,7 +250,8 @@ main {
 
 
     .box {
-        padding: 0.5vw;
+        padding: 0.5vw 1vw;
+        font-size: 3vw;
     }
 
     #p-bottom {
