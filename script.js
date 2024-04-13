@@ -20,6 +20,9 @@ function restartGame() {
 
     // Start the game timer
     runTimer();
+
+    // Add the resize event listener
+    window.addEventListener("resize", makeBubble);
 }
 
 
@@ -33,6 +36,9 @@ function startGame() {
 
     // Start the game timer
     runTimer();
+
+    // Add the resize event listener
+    window.addEventListener("resize", makeBubble);
 }
 
 // Call the startGame function when the "Start" button is clicked
@@ -114,6 +120,9 @@ function runTimer() {
 
             // Add an event listener for clicking on the restart button
             document.querySelector("#restart-button").addEventListener("click", restartGame);
+
+            // Remove the resize event listener
+            window.removeEventListener("resize", makeBubble);
         }
     }, 1000)
 }
@@ -137,7 +146,7 @@ document.querySelector("#p-bottom")
 
 // this function help appearing bubble without resize the width...method (01)...
 // [note : when you don't use start button you need this method but you this event listener for real-time responsive like when you play game]
-window.addEventListener("resize", makeBubble);
+// window.addEventListener("resize", makeBubble);
 
 //////////////////////////////////////////////////////////////
 
