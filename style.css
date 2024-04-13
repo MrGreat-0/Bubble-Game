@@ -82,7 +82,7 @@ main {
 .elem h4 {
 
     font-weight: 300;
-    font-size: 1.3vw;
+    font-size: 1.6vw;
 
 }
 
@@ -228,8 +228,12 @@ main {
     .elem h4 {
 
         font-weight: 300;
-        font-size: 3vw;
+        font-size: 4.5vw;
 
+    }
+
+    .elem {
+        gap: 2vw;
     }
 
     #p-top {

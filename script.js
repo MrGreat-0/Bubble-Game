@@ -126,6 +126,11 @@ document.querySelector("#p-bottom")
             incScore();
             makeBubble();
             getNewHit();
+        } else {
+            if (score > 0) {
+                score -= 5;
+            }
+            document.querySelector("#scoreval").textContent = score;
         }
     })
 
