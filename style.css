@@ -141,6 +141,43 @@ main {
 
 }
 
+#p-bottom #start-button {
+
+    padding: 1vw 1.5vw;
+    color: #fff;
+    background-color: rgb(31, 133, 31);
+    border: none;
+    font-size: 2.5vw;
+    border-radius: 0.4vw;
+
+}
+
+#p-bottom #start-button:hover {
+
+    cursor: pointer;
+    background-color: rgb(86, 165, 86);
+
+}
+
+#restart-button {
+
+    padding: .5vw;
+    color: #fff;
+    background-color: rgb(43, 131, 43);
+    border: none;
+    font-size: 2vw;
+    border-radius: 0.4vw;
+
+}
+
+#restart-button:hover {
+
+    cursor: pointer;
+    background-color: rgb(86, 165, 86);
+
+}
+
+
 @media (max-width:768px) {
 
     .bubble {
@@ -177,6 +214,7 @@ main {
     }
 
 }
+
 
 @media (max-width:640px) {
 
@@ -221,6 +259,22 @@ main {
 
     #panel {
         height: 85%;
+    }
+
+    #p-bottom #start-button {
+
+        padding: 2vw;
+        font-size: 5vw;
+        border-radius: 1vw;
+
+    }
+
+    #restart-button {
+
+        padding: 1.5vw;
+        font-size: 5vw;
+        border-radius: 1vw;
+
     }
 
 }
